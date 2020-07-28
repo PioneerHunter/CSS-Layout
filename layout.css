@@ -1,0 +1,156 @@
+/*头部*/
+/*大盒子*/
+header{
+    border: 1px solid black;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+/*小盒子*/
+#guide{
+    position: relative;
+    top: 0;
+    border: 1px solid black;
+    width: 960px;
+    height: 59px;
+    margin: auto;
+    padding: 0;
+}
+
+#guide p,#guide a{
+    color: white;
+}
+
+/*logo标志，左边*/
+#logo{
+    position: absolute;
+    left: 0;
+    vertical-align: auto;
+}
+
+/*三个链接，右上角*/
+#link{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+/**/
+#banner{
+    position: relative;
+    border: 1px solid rgb(221, 190, 190);
+    height: 300px;
+    width: 100%;
+    background-color: rgb(75, 235, 27);
+}
+
+/**/
+#parcelNum{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    border: 1px solid rgb(75, 235, 27);;
+    height: 60px;
+    width: 140px;
+}
+
+/**/
+#banner p{
+    float: left;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 30px;
+    background-color: rgb(159, 184, 163);
+    color: rgb(67, 78, 69);
+}
+
+/**/
+#parcelNum #second{
+    margin-top: 20px;
+    padding-top: 10px;
+    color: black;
+    background: rgb(203, 221, 206);
+}
+
+#navigation{
+    border: 1px solid rgb(221, 190, 190);
+    height: 50px;
+    width: 100%;
+}
+
+#navigation p{
+    float: left;
+    border: 1px solid rgb(221, 190, 190);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: transparent;
+    padding: 8px 12px 8px 12px;
+    margin-top: 12px;
+    background-color: rgb(225, 236, 238);
+}
+
+#navigation #home{
+    margin-left: 250px;
+    padding-bottom: 9px;
+    background-color: white;
+}
+
+#big-content{
+    overflow: hidden;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 650px;
+    padding-top: 0;
+}
+
+
+
+#content{
+    border: 1px solid transparent;
+    border-top: transparent;
+    height: 600px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 200px;
+    justify-content: space-between;
+}
+
+#content div{
+    border: 1px solid rgb(221, 190, 190);
+    width: auto;
+    padding: 80px;
+    margin: 8px;
+}
+
+#content .top{
+    padding: 80px 95px 80px 95px;
+}
+
+#content .center{
+    padding: 70px;
+}
+
+#content .bottom{
+    padding: 80px 110px 80px 110px;
+}
+
+#information{
+    border: 1px solid black;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#information p{
+    margin-top: 3px;
+}
